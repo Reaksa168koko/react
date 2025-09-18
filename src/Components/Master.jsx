@@ -24,7 +24,7 @@ const Master = () => {
             {users.map((e)=>(
                 <Route path={`/user/${e.id}`} element={
                     <div>
-                      <h1>name:{e.name}</h1>
+                      <h1>nkme:{e.name}</h1>
                       <h1>ID:{e.id}</h1>
                       <h1>Gender: {e.gender}</h1>
                     
